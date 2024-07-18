@@ -27,18 +27,22 @@ This project implements a Natural Language Processing (NLP) pipeline to automati
   - `requirements.txt`: List of required Python packages
 
 ## Methodology
+
 1. Data Preprocessing:
-  - Splitting video titles
-  - Removing stopwords and non-alphabetic characters
-  - Converting to lowercase
-  - Applying stemming
+   - Splitting video titles
+   - Removing stopwords and non-alphabetic characters
+   - Converting text to lowercase
+   - Applying stemming using Porter Stemmer
 
 2. Feature Extraction:
-  - Using CountVectorizer to convert text to numerical vectors
+   - Utilizing CountVectorizer to convert preprocessed text into numerical vectors
+   - Setting maximum features to 1600 for dimensionality control
 
 3. Model Training and Evaluation:
-  - Implementing Logistic Regression for multi-class classification
-  - Evaluating model performance using accuracy metrics
+   - Implementing Logistic Regression with One-vs-Rest strategy for multi-class classification
+   - Splitting data into 80% training and 20% testing sets
+   - Training the model on the prepared dataset
+   - Evaluating model performance using accuracy score
 
 ## Results
   The model achieves an accuracy of 82.6% in classifying YouTube video titles into their respective categories.
