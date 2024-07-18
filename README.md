@@ -28,23 +28,23 @@ This project implements a Natural Language Processing (NLP) pipeline to automati
 
 ## Methodology
 1. Data Preprocessing:
-- Splitting video titles
-- Removing stopwords and non-alphabetic characters
-- Converting to lowercase
-- Applying stemming
+-- Splitting video titles
+-- Removing stopwords and non-alphabetic characters
+-- Converting to lowercase
+-- Applying stemming
 
 2. Feature Extraction:
-- Using CountVectorizer to convert text to numerical vectors
+-- Using CountVectorizer to convert text to numerical vectors
 
 3. Model Training and Evaluation:
-- Implementing Logistic Regression for multi-class classification
-- Evaluating model performance using accuracy metrics
+-- Implementing Logistic Regression for multi-class classification
+-- Evaluating model performance using accuracy metrics
 
 ## Results
 The model achieves an accuracy of 82.6% in classifying YouTube video titles into their respective categories.
 
 ## Future Improvements
-- Experiment with different classification algorithms
-- Implement more advanced NLP techniques like word embeddings
-- Expand the dataset for better generalization
+-- Experiment with different classification algorithms
+-- Implement more advanced NLP techniques like word embeddings
+-- Expand the dataset for better generalization
 
